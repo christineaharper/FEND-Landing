@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <!-- css reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="top">
+        <div class="video-container">
+            <!-- Video by Ruvim Miksanskiy from Pexels -->
+            <video src="videos/pexels-videos-1437396.mp4" autoplay muted loop></video>
+        </div>
+        <nav class="navbar navbar-visible">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-car"></i>
+                    <a href="#top">Wander<span class="logo-span">App</span></a>
+                </div>
+                <ul class="navbar-list">
+                    <!-- li elements created dynamically in app.js -->
+                </ul>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1 class="header-primary">You can go your own way...</h1>
+            <h2 class="header-secondary">...or you could go ours.</h2>
+            <div class="header-download">
+                <ul class="header-dl-links">
+                    <li><a href="#" class="apple-dl-btn"> <i class="fab fa-apple"></i> App Store</a></li>
+                    <li><a href="#" class="google-dl-btn"><i class="fab fa-google-play"></i> Google Play</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="more">
+            <a href="#section-one" class="btn">
+                <i class="fas fa-chevron-down down-icon"></i>
+            </a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section" id="section-one" data-nav="Getting There">
+            <div class="inner-container">
+                <div class="img-container">
+                    <img src="images/brecht-denil-H54mZnQua8k-unsplash.jpeg" alt="gps unit in car" class="section-img">
+                    <!-- Photo by Brecht Denil on Unsplash-->
+                </div>
+                <div class="inner-content" data-content="Getting There">
+                    <h2>Getting There</h2>
+                    <p>Access gps instructions to safely get to your destination. Want to
+                        get there quick? Take a slow
+                        scenic route? We'll show the ways to get there, and you pick the one that works for you. Don't
+                        have a car? Choose from a variety of car-free and public transit friendly destinations. Spend
+                        less
+                        time trying to find out how to get there, and more time finding the right snacks to bring along.
+                    </p>
+                </div>
+                <div class="more">
+                    <a href="#section-two" class="btn">
+                        <i class="fas fa-chevron-down down-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="section-two" data-nav="Listen">
+            <div class="inner-container">
+                <div class="img-container"> <img src="images/pexels-cottonbro-5053985.jpeg" class="section-img"
+                        alt="phone showing music apps"> <!-- Photo by Cottonbro on Pexels -->
+                </div>
+
+                <div class="inner-content" data-content="Listen">
+                    <h2>Listen</h2>
+                    <p>No good road trip is without good music. Choose from a variety of curated playlists tailored for
+                        each trip, or upload your own personal favourites. Life is a highway, and while we don't always
+                        suggest riding it all night long, we do suggest a good set of tunes to get you where you're
+                        going.</p>
+                </div>
+                <div class="more">
+                    <a href="#section-three" class="btn">
+                        <i class="fas fa-chevron-down down-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section-three" data-nav="Weather">
+            <div class="inner-container">
+                <div class="img-container"> <img src="images/pexels-ann-martynova-3494088.jpeg" class="section-img"
+                        alt="girl standing beside puddle"> <!-- Photo by Ann Martynova on Pexels -->
+                </div>
+
+                <div class="inner-content" data-content="Weather">
+                    <h2>Weather</h2>
+                    <p>Get up to date weather
+                        forecasts for your destination to help you plan your daily activities. Save an itinerary, and
+                        easily make changes to suit your needs. Not into a muddy walk down a forest trail? Check out
+                        some local breweries, museums and other cool indoor establishments.</p>
+                </div>
+                <div class="more">
+                    <a href="#section-four" class="btn">
+                        <i class="fas fa-chevron-down down-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section-four" data-nav="Notes">
+            <div class="inner-container">
+                <div class="img-container"> <img src="images/pexels-cottonbro-5053839.jpeg" class="section-img"
+                        alt="woman using cellphone in cafe"> <!-- Photo by Cottonbro on Pexels -->
+                </div>
+
+                <div class="inner-content" data-content="Notes">
+                    <h2>Notes</h2>
+                    <p>Easily make notes throughout your trip with our online journalling platform. You can choose to
+                        upload your own photos and share your journey, or browse travel notes from others. Come across a
+                        cool hiking trail? Record store? A neat looking tree? Let others know!</p>
+                </div>
+                <div class="more">
+                    <a href="#footer" class="btn">
+                        <i class="fas fa-chevron-down down-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-container" id="footer">
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fas fa-envelope-square"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i> Follow us on Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram-square"></i> Follow us on Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square"></i> Follow us on Twitter</a></li>
+                </ul>
+            </div>
+            <div class="footer-company">
+                <h3>Company</h3>
+                <ul class="company-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-help">
+                <h3>Get Help</h3>
+                <ul class="help-links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-download">
+                <h3 class="dl-header">Get the App</h3>
+                <ul class="footer-dl-links">
+                    <li><a href="#" class="apple-dl-btn"> <i class="fab fa-apple"></i> App Store</a></li>
+                    <li><a href="#" class="google-dl-btn"><i class="fab fa-google-play"></i>Google Play</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+    <a href="#top" class="upBtn">To Top</a>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
